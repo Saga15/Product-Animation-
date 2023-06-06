@@ -1,18 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import Useability from './Useability';
-import Api from './Api';
-
-
+import "./App.css";
+import Useability from "./Useability";
 
 function App() {
   return (
     <div className="App">
-   
-      {/* <Api/> */}
-  {/* <Postdata/> */}
-
-      
+      <Useability />
     </div>
   );
 }
